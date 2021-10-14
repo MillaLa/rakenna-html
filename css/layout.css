@@ -1,0 +1,51 @@
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 1rem;
+}
+
+#ylatunniste {
+    padding-bottom: 1.5rem;
+    border: solid 1px grey;
+    border-style: dotted;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 2rem;
+}
+
+#rinnakkain {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px grey;
+    border-style: dotted;
+    padding: 1rem;
+}
+
+#rinnakkain>* {
+    flex-basis: 50%;
+}
+
+figure {
+    padding: 1rem 0 1rem 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+#alatunniste {
+    border: solid 1px grey;
+    border-style: dotted;
+    padding: 1rem;
+}
